@@ -8,7 +8,7 @@ Link to Issue:
 
 # TODOs
 
-- [] List systems to test in
-- [] Unit tests
-- [] Add right label(s)
-- [] Add reviewer(s)
+- [ ] List systems to test in
+- [ ] Unit tests
+- [ ] Add right label(s)
+- [ ] Add reviewer(s)
