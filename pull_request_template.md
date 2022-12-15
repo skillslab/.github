@@ -1,6 +1,6 @@
 # Description
 
-Describe changes from the end users perspective (if possible). Add some screenshots.
+Describe changes from the end users' perspective (if possible). Add some screenshots.
 
 # Meta Information
 
@@ -10,5 +10,5 @@ Link to Issue:
 
 - [ ] List systems to test in
 - [ ] Unit tests
-- [ ] Add right label(s)
+- [ ] Add the appropriate label(s)
 - [ ] Add reviewer(s)
