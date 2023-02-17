@@ -14,8 +14,41 @@ jobs:
     name: Check Labels
     runs-on: ubuntu-latest
     steps:
-      - uses: docker://agilepathway/pull-request-label-checker:latest
+      - name: Check Required Labels
+        uses: docker://agilepathway/pull-request-label-checker:latest
         with:
           any_of: breaking,bugfix,feature
           none_of: blocked,draft,duplicate,help wanted,invalid,question,wontfix
           repo_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check 'merge-next' Labels
+        run: |
+          function curl_api() {
+            curl \
+              --header "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              --silent \
+              "https://api.github.com/repos/${{ github.repository }}/$*"
+          }
+
+          function main() {
+            local pull_requests
+            pull_requests=$(curl_api "pulls?state=open")
+            pull_requests=$(echo "${pull_requests}" | grep -oP '(?<="number":)[^,]+')
+
+            local i matches=()
+            for i in ${pull_requests}; do
+              local labels
+              labels=$(curl_api "issues/${i}/labels")
+
+              if echo "${labels}" | grep -q "\"name\": \"merge-next\""; then
+                matches+=("https://github.com/${{ github.repository }}/pull/${i}")
+              fi
+            done
+
+            echo "${#matches[@]} Pull Requests have the 'merge-next' label:"
+
+            for i in "${matches[@]}"; do
+              echo "- ${i}"
+            done
+          }
+
+          main "$@"
