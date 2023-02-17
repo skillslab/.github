@@ -1,0 +1,20 @@
+name: Sync Labels
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Sync Labels
+        uses: micnncim/action-label-syncer@v1
+        with:
+          repository: |
+            skillslab/configs
+            skillslab/docker-images
+          token: ${{ secrets.GITHUB_dOKEN }}
