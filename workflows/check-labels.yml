@@ -36,6 +36,10 @@ jobs:
 
             local i matches=()
             for i in ${pull_requests}; do
+              if [[ "${i}" == "${{ github.event.number }}" ]]; then
+                continue
+              fi
+
               local labels
               labels=$(curl_api "issues/${i}/labels")
 
