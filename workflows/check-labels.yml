@@ -44,11 +44,21 @@ jobs:
               fi
             done
 
-            echo "${#matches[@]} Pull Requests have the 'merge-next' label:"
+            if (( ! ${#matches[@]} )); then
+              exit 0
+            fi
+
+            if (( ${#matches[@]} == 1 )); then
+              echo "${#matches[@]} other Pull Request has the 'merge-next' label:"
+            else
+              echo "${#matches[@]} other Pull Requests have the 'merge-next' label:"
+            fi
 
             for i in "${matches[@]}"; do
               echo "- ${i}"
             done
+
+            exit 1
           }
 
           main "$@"
