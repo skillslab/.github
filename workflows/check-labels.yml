@@ -17,7 +17,7 @@ jobs:
       - name: Check Required Labels
         uses: docker://agilepathway/pull-request-label-checker:latest
         with:
-          any_of: breaking,bugfix,client request,dependencies,documentation,feature,visualization
+          any_of: breaking,bugfix,client request,dependencies,documentation,feature,tests,visualization
           none_of: blocked,draft,duplicate,help wanted,invalid,question,wontfix
           repo_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Check 'merge-next' Labels
