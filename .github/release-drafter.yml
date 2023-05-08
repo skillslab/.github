@@ -1,0 +1,34 @@
+categories:
+  - title: '💥 Breaking Changes'
+    labels:
+      - 'breaking'
+  - title: '✨ Features'
+    labels:
+      - 'feature'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'bugfix'
+  - title: '📌 Dependencies'
+    labels:
+      - 'dependencies'
+category-template: '### $TITLE'
+change-template: '* $TITLE by @$AUTHOR in $URL'
+name-template: '$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+template: |
+  ## What's Changed
+
+  $CHANGES
+
+  **Full Changelog**: https://github.com/$OWNER/$REPOSITORY/commits/v$RESOLVED_VERSION
+version-resolver:
+  major:
+    labels:
+      - 'breaking'
+  minor:
+    labels:
+      - 'feature'
+  patch:
+    labels:
+      - 'bugfix'
+  default: patch
