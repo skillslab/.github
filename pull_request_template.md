@@ -5,13 +5,15 @@
 - Add some screenshots for changes to the user interface (web, rendering, or unreal engine).
 - If applicable describe how you changed it in comparison to other possible solutions. If this isn't intended for customers move it into a new section below.
 
-# Meta Information
+# 📑 Meta Information
 
 Link to Issue:
 
-# TODOs
+Dependencies:
 
-- [ ] List systems to test in
-- [ ] Unit tests
-- [ ] Add the appropriate label(s)
-- [ ] Add reviewer(s)
+# 💪 TODOs
+
+- [ ] 📋 List systems to test in (e.g. ArenaWU, CubeFCB, ...) as checkboxes and check them after testing with branch releases
+- [ ] 🧪 Unit tests added/updated (if not, explain why they aren't needed or not part of the PR)
+- [ ] 🏷️ Add the appropriate label(s)
+- [ ] 🔍 Add reviewer(s)
