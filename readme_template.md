@@ -14,6 +14,7 @@ For large README files a table of content can be added, which can be automated w
 
 <!-- TOC depthfrom:2 -->
 
+- [:whale: or :arrow_forward: Run a release](#whale-or-arrow_forward-run-a-release)
 - [:construction: or :hammer_and_wrench: Prerequisites or Setup](#construction-or-hammer_and_wrench-prerequisites-or-setup)
 - [:desktop_computer: Development](#desktop_computer-development)
     - [Getting Started](#getting-started)
@@ -23,39 +24,69 @@ For large README files a table of content can be added, which can be automated w
 - [:art: Assets or Sprites](#art-assets-or-sprites)
 - [:blue_book: Application related](#blue_book-application-related)
 - [:pager: CLI related](#pager-cli-related)
-- [:arrow_forward: or :whale: Docker related](#arrow_forward-or-whale-docker-related)
+- [:whale: Docker related](#whale-docker-related)
 - [:scroll: Guidelines](#scroll-guidelines)
 - [:arrows_counterclockwise: Sync](#arrows_counterclockwise-sync)
 - [:mag: Links to further information](#mag-links-to-further-information)
 
 <!-- /TOC -->
 
+## :whale: or :arrow_forward: Run a release
+
+If running a release is the easiest way to run the application or services of the repository, this section should be the first one.
+
+Describe where the release can be downloaded (`docker pull` or release download) and how to start it locally. This must include all required environment variables. Use the :whale: icon for docker containers and the :arrow_forward: for all other releases.
+
+If there is a lot of configuration, provide the command to start the service with our scripts in [docker-images](https://github.com/skillslab/docker-images) first, otherwise after the [Docker](https://www.docker.com/) or [Docker Compose](https://docs.docker.com/compose/) command.
+
 ## :construction: or :hammer_and_wrench: Prerequisites or Setup
 
 You have to add clone instructions if a simple pull is not sufficient. For example if submodules have to be checked out.
 
-Add instructions to software that has to be installed on the machine to run the code or link to another repository or other documentation which covers the setup. Ofter used examples are [ansible repo](https://github.com/skillslab/ansible) and [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers).
+Add instructions for software that has to be installed on the machine to run the code or link to another repository or other documentation which covers the setup. Ofter used examples are [ansible repo](https://github.com/skillslab/ansible) and [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers).
 
 ## :desktop_computer: Development
 
 ### Getting Started
 
+Describe how to start up the development environment. Either with docker, Visual Studio Code and Dev Containers or the Unreal Engine. If there are multiple ways, mention all, but start with the most used. Also mention the differences.
+
 ### Building
+
+In this section describe how the projection can be built and describe which configurations are available.
 
 ## :handshake: Contributing
 
+**TODO:** Merge with guidelines?
+
 ## :rocket: Production
+
+Describe how production releases are created and which options are available to get to branch releases.
 
 ## :art: Assets or Sprites
 
+In this section you can mention steps related to assets. If the steps are mandatory for builds, you have to include this section.
+
 ## :blue_book: Application related
+
+Describe or link all applications/services in this repository as well as their command line options or environment variables.
 
 ## :pager: CLI related
 
-## :arrow_forward: or :whale: Docker related
+**TODO:** ?
+
+## :whale: Docker related
+
+**TODO:** ?
 
 ## :scroll: Guidelines
 
+Provide links to coding guidelines that are followed as well es linters or formatters that are used.
+
 ## :arrows_counterclockwise: Sync
 
+List which workflows are synced to this repository from the [sync repository](https://github.com/skillslab/sync)
+
 ## :mag: Links to further information
+
+List links to further information already in the repository or in the confluence or external documentation.
