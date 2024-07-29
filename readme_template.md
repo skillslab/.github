@@ -19,6 +19,7 @@ For large README files a table of content can be added, which can be automated w
 - [:desktop_computer: Development](#desktop_computer-development)
     - [Getting Started](#getting-started)
     - [Building](#building)
+    - [Testing](#testing)
 - [:handshake: Contributing](#handshake-contributing)
 - [:rocket: Production](#rocket-production)
 - [:art: Assets or Sprites](#art-assets-or-sprites)
@@ -54,6 +55,10 @@ Describe how to start up the development environment. Either with docker, Visual
 ### Building
 
 In this section describe how the projection can be built and describe which configurations are available.
+
+### Testing
+
+Explain where the tests are organized and how they can be executed.
 
 ## :handshake: Contributing
 
