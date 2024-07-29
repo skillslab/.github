@@ -9,6 +9,8 @@ Use backticks for `filenames` and `directories`, `ENVIRONMENT_VARIABLES`, `execu
 
 The title must be the name of the repository and can be preceded by an [emoji](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) that has something to do with the repository .
 
+For large README files a table of content can be added, which can be automated with the [Auto Markdown TOC extension](https://marketplace.visualstudio.com/items?itemName=huntertran.auto-markdown-toc):
+
 <!-- TOC -->
 
 - [:construction: or :hammer_and_wrench: Prerequisites or Setup](#construction-or-hammer_and_wrench-prerequisites-or-setup)
