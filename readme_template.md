@@ -1,4 +1,3 @@
-<!-- TOC ignore:true -->
 # :blue_book: Template for READMEs
 
 This serves as a template for new READMEs and should be used as a guideline for existing ones.
@@ -9,9 +8,11 @@ Use backticks for `filenames` and `directories`, `ENVIRONMENT_VARIABLES`, `execu
 
 The title must be the name of the repository and can be preceded by an [emoji](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) that has something to do with the repository .
 
-For large README files a table of content can be added, which can be automated with the [Auto Markdown TOC extension](https://marketplace.visualstudio.com/items?itemName=huntertran.auto-markdown-toc):
+Describe what the application(s)/services(s)/content of this repository are and how they are used in relation to other applications and services.
 
-<!-- TOC -->
+For large README files a table of content can be added, which can be automated with the [Auto Markdown TOC extension](https://marketplace.visualstudio.com/items?itemName=huntertran.auto-markdown-toc) (adjust the depth to start from with `depthFrom:2` after the `TOC` marker):
+
+<!-- TOC depthfrom:2 -->
 
 - [:construction: or :hammer_and_wrench: Prerequisites or Setup](#construction-or-hammer_and_wrench-prerequisites-or-setup)
 - [:desktop_computer: Development](#desktop_computer-development)
