@@ -20,11 +20,10 @@ For large README files a table of content can be added, which can be automated w
     - [Getting Started](#getting-started)
     - [Building](#building)
     - [Testing](#testing)
-- [:handshake: Contributing](#handshake-contributing)
 - [:rocket: Production](#rocket-production)
 - [:art: Assets or Sprites](#art-assets-or-sprites)
 - [:blue_book: Application related](#blue_book-application-related)
-- [:scroll: Guidelines](#scroll-guidelines)
+- [:handshake: Contributing](#handshake-contributing)
 - [:arrows_counterclockwise: Sync](#arrows_counterclockwise-sync)
 - [:mag: Links to further information](#mag-links-to-further-information)
 
@@ -58,10 +57,6 @@ In this section describe how the projection can be built and describe which conf
 
 Explain where the tests are organized and how they can be executed.
 
-## :handshake: Contributing
-
-**TODO:** Merge with guidelines?
-
 ## :rocket: Production
 
 Describe how production releases are created and which options are available to get to branch releases.
@@ -74,9 +69,13 @@ In this section you can mention steps related to assets. If the steps are mandat
 
 Describe or link all applications/services in this repository as well as their command line options or environment variables.
 
-## :scroll: Guidelines
+## :handshake: Contributing
 
-Provide links to coding guidelines that are followed as well es linters or formatters that are used.
+Link to a `CONTRIBUTING.md` which explains what steps are required to contribute to this repository. This file is linked when a new pull request is created.
+
+Provide links to coding guidelines and style guides that are followed as well es linters or formatters that are used.
+
+Explain how hooks can be setup and what they are doing. Enumerate which checks are performed for each pull request so that a contributor can run them locally and doesn't have to wait for the feedback of github actions.
 
 ## :arrows_counterclockwise: Sync
 
