@@ -24,8 +24,6 @@ For large README files a table of content can be added, which can be automated w
 - [:rocket: Production](#rocket-production)
 - [:art: Assets or Sprites](#art-assets-or-sprites)
 - [:blue_book: Application related](#blue_book-application-related)
-- [:pager: CLI related](#pager-cli-related)
-- [:whale: Docker related](#whale-docker-related)
 - [:scroll: Guidelines](#scroll-guidelines)
 - [:arrows_counterclockwise: Sync](#arrows_counterclockwise-sync)
 - [:mag: Links to further information](#mag-links-to-further-information)
@@ -75,14 +73,6 @@ In this section you can mention steps related to assets. If the steps are mandat
 ## :blue_book: Application related
 
 Describe or link all applications/services in this repository as well as their command line options or environment variables.
-
-## :pager: CLI related
-
-**TODO:** ?
-
-## :whale: Docker related
-
-**TODO:** ?
 
 ## :scroll: Guidelines
 
