@@ -14,20 +14,24 @@ For large README files a table of content can be added, which can be automated w
 
 <!-- TOC depthfrom:2 -->
 
+- [:blue_book: Application related](#blue_book-application-related)
 - [:whale: or :arrow_forward: Run a release](#whale-or-arrow_forward-run-a-release)
-- [:construction: or :hammer_and_wrench: Prerequisites or Setup](#construction-or-hammer_and_wrench-prerequisites-or-setup)
+- [:hammer_and_wrench: Prerequisites](#hammer_and_wrench-prerequisites)
 - [:desktop_computer: Development](#desktop_computer-development)
     - [Getting Started](#getting-started)
     - [Building](#building)
     - [Testing](#testing)
-- [:rocket: Production](#rocket-production)
 - [:art: Assets or Sprites](#art-assets-or-sprites)
-- [:blue_book: Application related](#blue_book-application-related)
 - [:handshake: Contributing](#handshake-contributing)
+- [:rocket: Production](#rocket-production)
 - [:arrows_counterclockwise: Sync](#arrows_counterclockwise-sync)
 - [:mag: Links to further information](#mag-links-to-further-information)
 
 <!-- /TOC -->
+
+## :blue_book: Application related
+
+Describe or link all applications/services in this repository as well as their command line options or environment variables.
 
 ## :whale: or :arrow_forward: Run a release
 
@@ -57,17 +61,9 @@ In this section describe how the project can be built and describe which configu
 
 Explain where the tests are organized and how they can be executed.
 
-## :rocket: Production
-
-Describe how production releases are created and which options are available to get to branch releases.
-
 ## :art: Assets or Sprites
 
 In this section you can mention steps related to assets. If the steps are mandatory for builds, you have to include this section.
-
-## :blue_book: Application related
-
-Describe or link all applications/services in this repository as well as their command line options or environment variables.
 
 ## :handshake: Contributing
 
@@ -76,6 +72,10 @@ Link to a `CONTRIBUTING.md` which explains what steps are required to contribute
 Provide links to coding guidelines and style guides that are followed as well es linters or formatters that are used.
 
 Explain how hooks can be setup and what they are doing. Enumerate which checks are performed for each pull request so that a contributor can run them locally and doesn't have to wait for the feedback of github actions.
+
+## :rocket: Production
+
+Describe how production releases are created and which options are available to get to branch releases.
 
 ## :arrows_counterclockwise: Sync
 
