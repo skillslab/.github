@@ -51,7 +51,7 @@ Describe how to start up the development environment. Either with docker, Visual
 
 ### Building
 
-In this section describe how the projection can be built and describe which configurations are available.
+In this section describe how the project can be built and describe which configurations are available.
 
 ### Testing
 
