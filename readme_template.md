@@ -37,7 +37,7 @@ Describe where the release can be downloaded (`docker pull` or release download)
 
 If there is a lot of configuration, provide the command to start the service with our scripts in [docker-images](https://github.com/skillslab/docker-images) first, otherwise after the [Docker](https://www.docker.com/) or [Docker Compose](https://docs.docker.com/compose/) command.
 
-## :construction: or :hammer_and_wrench: Prerequisites or Setup
+## :hammer_and_wrench: Prerequisites
 
 You have to add clone instructions if a simple pull is not sufficient. For example if submodules have to be checked out.
 
