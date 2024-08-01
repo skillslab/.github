@@ -14,7 +14,7 @@ For large README files a table of content can be added, which can be automated w
 
 <!-- TOC depthfrom:2 -->
 
-- [:blue_book: Application related](#blue_book-application-related)
+- [:blue_book: Usage](#blue_book-usage)
 - [:whale: or :arrow_forward: Run a release](#whale-or-arrow_forward-run-a-release)
 - [:hammer_and_wrench: Prerequisites](#hammer_and_wrench-prerequisites)
 - [:desktop_computer: Development](#desktop_computer-development)
@@ -29,7 +29,7 @@ For large README files a table of content can be added, which can be automated w
 
 <!-- /TOC -->
 
-## :blue_book: Application related
+## :blue_book: Usage
 
 Describe or link all applications/services in this repository as well as their command line options or environment variables.
 
