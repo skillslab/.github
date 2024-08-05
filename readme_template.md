@@ -2,7 +2,7 @@
 
 This serves as a template for new READMEs and should be used as a guideline for existing ones.
 
-Use [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) to lint the README. This is part of the *Doc Writer* Visual Studio Code Profile.
+Use [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) to lint the README. This is part of the [*Doc Writer*](https://code.visualstudio.com/docs/editor/profiles#_doc-writer-profile-template) Visual Studio Code Profile.
 
 Use backticks for `filenames` and `directories`, `ENVIRONMENT_VARIABLES`, `executables`, `keys` and `--command-line-arguments`.
 
