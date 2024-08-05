@@ -73,6 +73,8 @@ Provide links to coding guidelines and style guides that are followed as well es
 
 Explain how hooks can be setup and what they are doing. Enumerate which checks are performed for each pull request so that a contributor can run them locally and doesn't have to wait for the feedback of github actions.
 
+Link to the logging framework that is used, mention the logging file location and whether the log files are stored in graylog. Also link to utility tools (functions, classes) used for logging.
+
 ## :rocket: Production
 
 Describe how production releases are created and which options are available to get to branch releases.
