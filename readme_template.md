@@ -36,7 +36,7 @@ Describe or link all applications/services in this repository as well as their c
 
 If running a release is the easiest way to run the application or services of the repository, this section should be the first one.
 
-Describe where the release can be downloaded (`docker pull` or release download) and how to start it locally. This must include all required environment variables. Use the :whale: icon for docker containers and the :arrow_forward: for all other releases.
+Describe where the release can be downloaded (`docker image pull` or release download) and how to start it locally. This must include all required environment variables. Use the :whale: icon for docker containers and the :arrow_forward: for all other releases.
 
 If there is a lot of configuration, provide the command to start the service with our scripts in [docker-images](https://github.com/skillslab/docker-images) first, otherwise after the [Docker](https://www.docker.com/) or [Docker Compose](https://docs.docker.com/compose/) command.
 
