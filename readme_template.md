@@ -24,7 +24,6 @@ For large README files a table of content can be added, which can be automated w
 - [:art: Assets or Sprites](#art-assets-or-sprites)
 - [:handshake: Contributing](#handshake-contributing)
 - [:rocket: Production](#rocket-production)
-- [:arrows_counterclockwise: Sync](#arrows_counterclockwise-sync)
 - [:mag: Links to further information](#mag-links-to-further-information)
 
 <!-- /TOC -->
@@ -78,10 +77,6 @@ Link to the logging framework that is used, mention the logging file location an
 ## :rocket: Production
 
 Describe how production releases are created and which options are available to get to branch releases.
-
-## :arrows_counterclockwise: Sync
-
-List which workflows are synced to this repository from the [sync repository](https://github.com/skillslab/sync)
 
 ## :mag: Links to further information
 
