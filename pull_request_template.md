@@ -15,5 +15,6 @@ Dependencies:
 
 - [ ] 📋 List systems to test in (e.g. ArenaWU, CubeFCB, ...) as checkboxes and check them after testing with branch releases
 - [ ] 🧪 Unit tests added/updated (if not, explain why they aren't needed or not part of the PR)
+- [ ] 📖 Update documentation (Readme, ...)
 - [ ] 🏷️ Add the appropriate label(s)
 - [ ] 🔍 Add reviewer(s)
