@@ -21,7 +21,6 @@ For large README files a table of content can be added, which can be automated w
     - [Getting Started](#getting-started)
     - [Building](#building)
     - [Testing](#testing)
-- [:art: Assets or Sprites](#art-assets-or-sprites)
 - [:handshake: Contributing](#handshake-contributing)
 - [:rocket: Production](#rocket-production)
 - [:mag: Links to further information](#mag-links-to-further-information)
@@ -46,6 +45,8 @@ You have to add clone instructions if a simple pull is not sufficient. For examp
 
 Add instructions for software that has to be installed on the machine to run the code or link to another repository or other documentation which covers the setup. Often used examples are [ansible repo](https://github.com/skillslab/ansible) and [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers).
 
+If assets (like sprites :art:) need to be present, describe how the get or build them in this section.
+
 ## :desktop_computer: Development
 
 ### Getting Started
@@ -59,10 +60,6 @@ In this section describe how the project can be built and describe which configu
 ### Testing
 
 Explain where the tests are organized and how they can be executed.
-
-## :art: Assets or Sprites
-
-In this section you can mention steps related to assets. If the steps are mandatory for builds, you have to include this section.
 
 ## :handshake: Contributing
 
