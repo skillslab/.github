@@ -45,7 +45,7 @@ You have to add clone instructions if a simple pull is not sufficient. For examp
 
 Add instructions for software that has to be installed on the machine to run the code or link to another repository or other documentation which covers the setup. Often used examples are [ansible repo](https://github.com/skillslab/ansible) and [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers).
 
-If assets (like sprites :art:) need to be present, describe how the get or build them in this section.
+If assets (like sprites :art:) need to be present, describe how to get or build them in this section.
 
 ## :desktop_computer: Development
 
